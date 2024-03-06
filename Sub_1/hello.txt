@@ -1,1 +1,72 @@
-edited
+  434  pwd
+  435  mkdir Assess_2310990056
+  436  cd Assess_2310990056
+  437  mkdir Sub_1
+  438  vi .gitignore
+  439  git init
+  440  git status
+  441  git add .
+  442  git commit -m"Git ignore committed"
+  443  touch "hello.txt" "hello.c" "hello.html"
+  444  vi hello.txt
+  445  vi hello.c
+  446  vi hello.html
+  447  git add .
+  448  git commit -m"Content added to all 3 files"
+  449  vi hello.html
+  450  git add .
+  451  git commit -m"Modified .html file"
+  452  vi hello.c
+  453  git add .
+  454  git commit -m"Modified .c file"
+  455  mkdir Sub_2
+  456  cp -r Assess_2310990056/.Assess_2310990056/Sub_1/
+  457  cp -r C:\Users\Basu Talwar\Assess_2310990056/* C:\Users\Basu Talwar\Assess_2310990056\Sub_1
+  458  cd Sub_1
+  459  cd ..
+  460  cp -r Assess_2310990056/* Assess_2310990056/Sub_1/
+  461  cd Sub_1
+  462  vi .gitignore
+  463  git add .
+  464  ls
+  465  vi hello.txt
+  466  git status
+  467  vi .gitignore
+  468  git rm -r --cached
+  469  git add .
+  470  vi hello.txt
+  471  git status
+  472  vi .gitignore
+  473  git commit -m"Started tracking .txt file again"
+  474  vi hello.txt
+  475  git status
+  476  git add hello.txt
+  477  vi .gitignore
+  478  git rm -r --cached
+  479  git add .
+  480  git commit -m"Tried tracking again"
+  481  vi hello.txt
+  482  git status
+  483  git add .
+  484  cd ..
+  485  vi .gitignore
+  486  git rm -r --cached
+  487  git add .
+  488  git commit -m"tracked .txt file for Sub_1"
+  489  cd Sub_1
+  490  vi hello.txt
+  491  git status
+  492  git add .
+  493  git commit -m"Modified .txt file"
+  494  cd ..
+  495  cd Sub_2
+  496  vi hello.img
+  497  git add .
+  498  git commit -m"Added hello.img to sub_2"
+  499  cd ..
+  500  cd Sub_1
+  501  git log --since="today" > hello.txt
+  502  vi hello.txt
+  503  git log
+  504  history
+
